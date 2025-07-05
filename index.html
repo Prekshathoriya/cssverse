@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSSverse – Explore the Entire CSS Universe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌌 CSSverse</h1>
+    <p>One page showcasing every major CSS feature — cleanly organized and interactive!</p>
+    <nav>
+      <a href="#layout">Layouts</a>
+      <a href="#typography">Typography</a>
+      <a href="#forms">Forms</a>
+      <a href="#animations">Animations</a>
+      <a href="#effects">Visual Effects</a>
+      <a href="#pseudo">Pseudo Elements</a>
+      <a href="#components">Components</a>
+      <a href="#aesthetic">Aesthetic Styles</a>
+      <a href="#responsive">Responsive</a>
+    </nav>
+  </header>
+
+  <!-- Layout Section -->
+  <section id="layout">
+    <h2>🧱 Layouts: Flexbox, Grid, Float, Position</h2>
+    <div class="flex-demo">
+      <div>Flex 1</div>
+      <div>Flex 2</div>
+      <div>Flex 3</div>
+    </div>
+    <div class="grid-demo">
+      <div>Grid 1</div>
+      <div>Grid 2</div>
+      <div>Grid 3</div>
+    </div>
+  </section>
+
+  <!-- Typography Section -->
+  <section id="typography">
+    <h2>🔤 Typography & Units</h2>
+    <p class="fluid-text">This text resizes with viewport using <code>clamp()</code>.</p>
+    <p class="highlight">This uses <code>em</code>, <code>rem</code>, and <code>custom CSS variables</code>.</p>
+  </section>
+
+  <!-- Forms Section -->
+  <section id="forms">
+    <h2>📝 Styled Forms</h2>
+    <form class="styled-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter email" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Animations Section -->
+  <section id="animations">
+    <h2>🎞️ CSS Animations</h2>
+    <div class="animated-box">Bounce</div>
+    <div class="hover-grow">Hover Me</div>
+  </section>
+
+  <!-- Visual Effects -->
+  <section id="effects">
+    <h2>🌈 Visual Effects</h2>
+    <div class="glass">Glassmorphism</div>
+    <div class="blurred">Filter Blur</div>
+  </section>
+
+  <!-- Pseudo Elements Section -->
+  <section id="pseudo">
+    <h2>👻 Pseudo Elements & Classes</h2>
+    <button class="fancy-btn">Hover Me</button>
+    <p class="before-after">This paragraph has ::before and ::after.</p>
+  </section>
+
+  <!-- Components Section -->
+  <section id="components">
+    <h2>🧩 UI Components</h2>
+    <div class="card">
+      <h3>Card Title</h3>
+      <p>This is a CSS-styled card with shadow and hover effect.</p>
+    </div>
+    <div class="modal-toggle">
+      <input type="checkbox" id="modal-switch" hidden />
+      <label for="modal-switch" class="open-modal-btn">Open Modal</label>
+      <div class="modal">
+        <label for="modal-switch" class="close-btn">×</label>
+        <p>This modal is pure CSS using <code>:checked</code>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aesthetic Styles Section -->
+  <section id="aesthetic">
+    <h2>🎨 Aesthetic Styles</h2>
+    <div class="neumorphism-box">Neumorphism</div>
+    <div class="clay-box">Claymorphism</div>
+  </section>
+
+  <!-- Responsive Section -->
+  <section id="responsive">
+    <h2>📱 Responsive & Media Queries</h2>
+    <p class="responsive-box">Resize your screen to see changes!</p>
+  </section>
+
+  <footer>
+    <p>Made with 💖 using only HTML & CSS — No JavaScript required.</p>
+  </footer>
+
+</body>
+</html>
